@@ -1,0 +1,18 @@
+Debug the following code.
+Cloud Load Balancing overview
+A load balancer distributes user traffic across multiple instances of your applications. By spreading the load, load balancing reduces the risk that your applications experience performance issues.
+ Simple overview of load balancing (click to enlarge)
+About Cloud Load Balancing
+By using Cloud Load Balancing, you can serve content as close as possible to your users on a system that can respond to over one million queries per second.
+Cloud Load Balancing is a fully distributed, software-defined managed service. It isn't hardware-based, so you don't need to manage a physical load balancing infrastructure.
+Google Cloud offers the following load balancing features:
+•	Single IP address to serve as the frontend
+•	Automatic intelligent autoscaling of your backends
+•	External load balancing for when your users reach your applications from the internet
+•	Internal load balancing for when your clients are inside of Google Cloud
+•	Regional load balancing for when your applications are available in a single region
+•	Global load balancing for when your applications are available across the world
+•	Pass-through load balancing (see also direct server return (DSR) or direct routing)
+•	Proxy-based load balancing (as an alternative to pass-through)
+•	Layer 4-based load balancing to direct traffic based on data from network and transport layer protocols, such as IP address and TCP or UDP port
+•	Layer 7-based load balancing to add content-based routing decisions based on attributes, such as the HTTP header and the uniform resource identifier
